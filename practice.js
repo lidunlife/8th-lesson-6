@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             let city = user.address?.city
 
-            address.innerHTML = `<span class ="info-label">Age:</span> <span class ="info-data">${city}</span>`;
+            address.innerHTML = `<span class ="info-label">City:</span> <span class ="info-data">${city}</span>`;
 
             card.classList.add('card');
 
